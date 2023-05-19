@@ -1,0 +1,97 @@
+header{
+    width:100%;
+    height: 90vh;
+    background: rgba(0,0,0,0.05)
+}
+.Menu a:hover{
+    color:red;
+}
+button:hover{
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+.logo{
+    font-size: 40px;
+
+}
+.logo span{
+    color: red;
+}
+.Menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    flex-basis: 50%;
+    max-width: 400px;
+    padding-left: 40px;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 70%;
+}
+label{
+    position: relative;
+    background-color:aliceblue;
+
+}
+label input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+line{
+    line-height: 12px;
+    margin: 20px 0px;
+
+}
+.box1{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
+
+.box2{
+    width: 50px;
+    height: 5px;
+    background-color: red;
+}
+
+.box3{
+    width: 85px;
+    height: 5px;
+    background-color: red;
+}
+.left h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.left h2{
+    color: gray;
+}
+.left button{
+    background: none;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    
+}
